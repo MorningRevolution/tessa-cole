@@ -1,0 +1,22 @@
+# Private tools (contain real names/patterns)
+scripts/
+
+# Environment and secrets
+.env
+.env.*
+config/
+*.key
+
+# Runtime data
+data/
+logs/
+*.jsonl
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
